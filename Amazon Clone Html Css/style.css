@@ -1,0 +1,328 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(218, 216, 216);
+  width: 100%;
+}
+
+.border {
+  border: 1.5px solid transparent;
+  border-radius: 3px;
+  padding: 8px;
+}
+
+.border:hover {
+  border: 1.5px solid #fff;
+  border-radius: 3px;
+}
+
+/* navbar */
+
+#navbar {
+  background-color: #131921;
+  color: #fff;
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.box1 {
+  width: 6.5rem;
+}
+
+#logo img {
+  width: 6.2rem;
+  height: 2.2rem;
+}
+
+.dlv {
+  font-size: 13px;
+  margin-left: 14px;
+  color: #ccc;
+}
+
+.loc-country {
+  display: flex;
+}
+
+.loc-country p {
+  font-size: 16px;
+  margin-left: 3px;
+  font-weight: bold;
+}
+
+/*search Bar*/
+
+#search-bar {
+  display: flex;
+  background-color: #e6e6e6;
+  border-radius: 5px;
+}
+
+#search-select {
+  background-color: #e6e6e6;
+  padding: 0.8rem;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+#search {
+  display: flex;
+}
+
+#search-input {
+  width: 35rem;
+  font-size: 1rem;
+  padding-left: 1rem;
+}
+
+#search-btn {
+  background-color: #febd69;
+  padding: 0.8rem;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+/*sign in*/
+
+.sign-in {
+  font-size: 13px;
+  margin-left: 14px;
+  color: #fff;
+}
+
+/* Nav Cart*/
+/* .box{
+  margin-left: 1rem;
+} */
+
+.nav-cart {
+  display: flex;
+}
+
+.size {
+  font-size: 1.8rem;
+}
+
+.cart {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #fff;
+}
+
+/*second navbar*/
+
+#second-nav {
+  background-color: #232f3e;
+  color: #fff;
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  margin-left: 12px;
+}
+
+.menu p {
+  margin-left: 4px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+}
+
+.sec-navbar {
+  display: flex;
+}
+
+.sec-navbar li {
+  text-decoration: none;
+  list-style: none;
+  margin-left: 1.2rem;
+  font-size: 00.8rem;
+}
+
+/*Hero Section*/
+
+.hero-section {
+  background-image: url("../media/herosection.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 450px;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.hin-section {
+  background-color: #fff;
+  color: black;
+  padding: 1rem 8rem;
+  margin-bottom: 4rem;
+}
+
+/*Product Boxes*/
+
+.pboxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.pbox {
+  background-color: #fff;
+  width: 19rem;
+  height: 27rem;
+  margin-top: -2rem;
+  box-shadow: 10px 20px 10px 20px grey;
+}
+
+.sbox {
+  margin-top: 2rem;
+}
+
+.boxpart1 {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem 1rem;
+}
+
+.boxpart2 {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem 1rem;
+}
+
+.pheading {
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.probox1 img {
+  width: 8rem;
+  height: 8rem;
+  margin: 0.3rem;
+}
+
+.shopnow1 {
+  margin: 0.8rem 0.2rem;
+  font-size: 0.9rem;
+}
+
+.shopnow2 {
+  margin: 15px 10px;
+  font-size: 0.9rem;
+}
+
+.probox2 img {
+  width: 17rem;
+  height: 19rem;
+  margin: 0.2rem 1rem;
+}
+
+/* footer */
+/* footer1 */
+
+.footbtn {
+  background-color: #37475a;
+  width: 100%;
+  height: 60px;
+  margin-top: 5px;
+  border: 2px solid transparent;
+}
+
+.footlink {
+  text-decoration: none;
+  color: #ccc;
+}
+
+/* footer2 */
+
+#footer2 {
+  background-color: #232f3e;
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.f1 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.f1 ul {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+}
+
+.f1-ul li {
+  margin-bottom: 1rem;
+}
+
+/* footer3 */
+
+#footer3 {
+  width: 99.8%;
+}
+
+.footcopy {
+  background-color: #37475a;
+  width: 100%;
+  height: 40px;
+  border: 2px solid transparent;
+  color: #fff;
+  text-align: center;
+  padding-top: 1.5rem;
+}
+
+@media screen and (min-width:900px) and (max-width:1200px) {
+  html{
+    font-size:55%;
+  }
+}
+
+@media screen and (min-width:300px) and (max-width:900px) {
+  html{
+    font-size:45%;
+  }
+
+ .pboxes{
+  flex-wrap: wrap;
+ }
+
+}
+
+@media screen and (min-width:300px) and (max-width:500px) {
+  .box1{
+    display: block;
+  }
+  .box2{
+    display: none;
+  }
+  .box3{
+    display: none;
+  }
+  .box6{
+    display: none;
+  }
+  .box4{
+    display: none;
+  }
+  .box6{
+    display: none;
+  }
+}
